@@ -14,6 +14,9 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
 ])
 SimpleCov.start
 # Require lib files after this
+
+require 'bookmark'
+
 # Tell Capybara to talk to BookmarkManager
 Capybara.app = BookmarkManager
 
