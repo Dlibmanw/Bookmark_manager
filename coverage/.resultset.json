@@ -1,7 +1,17 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/student/week_4/bookmark_manager/spec/features/visit_home_page_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      }
     },
-    "timestamp": 1581346529
+    "timestamp": 1581347171
   }
 }
