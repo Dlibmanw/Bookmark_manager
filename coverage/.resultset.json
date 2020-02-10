@@ -1,19 +1,19 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/makers_stuff/projects/week_4/dafna_bookmark_manager/Bookmark_manager/spec/features/bookmark_page_spec.rb": {
+      "/Users/student/week_4/bookmark_manager/spec/features/bookmark_page_spec.rb": {
         "lines": [
           1,
           1,
           1,
-          1,
+          0,
           0,
           0,
           null,
           null
         ]
       },
-      "/Users/student/makers_stuff/projects/week_4/dafna_bookmark_manager/Bookmark_manager/spec/features/visit_home_page_spec.rb": {
+      "/Users/student/week_4/bookmark_manager/spec/features/visit_home_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -24,6 +24,6 @@
         ]
       }
     },
-    "timestamp": 1581347858
+    "timestamp": 1581348705
   }
 }
