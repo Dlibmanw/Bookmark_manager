@@ -1,4 +1,14 @@
-ENV['RACK_ENV'] = 'test'
+require_relative './setup_test_database'
+
+ENV['ENVIRONMENT'] = 'test'
+
+RSpec.configure do |config|
+  config.before(:each) do
+    setup_test_database
+  end
+end
+
+#BookmarkManager::Base.connection.execute("TRUNCATE table_name")
 # Bring in the contents of the `app.rb` file. The below is equivalent to: require_relative '../app.rb'
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
 # Require all the testing gems
