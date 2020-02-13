@@ -44,6 +44,19 @@
           null
         ]
       },
+      "/Users/student/week_4/bookmark_manager/spec/features/creating_bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          null,
+          0,
+          null,
+          null
+        ]
+      },
       "/Users/student/week_4/bookmark_manager/spec/features/visit_home_page_spec.rb": {
         "lines": [
           null,
@@ -58,6 +71,6 @@
         ]
       }
     },
-    "timestamp": 1581597089
+    "timestamp": 1581602100
   }
 }
