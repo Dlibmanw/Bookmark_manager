@@ -13,6 +13,8 @@ class BookmarkManager < Sinatra::Base
     end
     
     get '/bookmarks/new' do
+        url = params[:url]
+        Bookmarks.create(url)
         erb :"bookmarks/new"
       end
 end
