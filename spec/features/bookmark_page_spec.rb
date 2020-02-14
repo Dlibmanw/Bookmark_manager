@@ -2,11 +2,9 @@ require 'pg'
 feature "visit BookMark page" do
     scenario 'view Bookmarks' do
 
-        connection = PG.connect(dbname: 'bookmark_manager_test')
-
-        connection.exec("INSERT INTO bookmarks VALUES(1, 'http://www.makersacademy.com');")
-        connection.exec("INSERT INTO bookmarks VALUES(2, 'http://www.google.com');")
-        connection.exec("INSERT INTO bookmarks VALUES(3, 'http://www.twitter.com');")
+        Bookmarks.create("http://www.makersacademy.com")
+        Bookmarks.create("http://www.twitter.com")
+        Bookmarks.create("http://www.google.com")
         
         visit '/bookmarks'
 
